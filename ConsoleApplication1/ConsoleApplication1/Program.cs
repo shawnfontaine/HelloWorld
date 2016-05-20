@@ -13,6 +13,7 @@ namespace ConsoleApplication1
             foreach (string message in messages)
             {
                 Console.WriteLine(message);
+                Console.WriteLine('\n');
             }
         }
 
