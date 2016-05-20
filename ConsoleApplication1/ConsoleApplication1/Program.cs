@@ -8,17 +8,18 @@ namespace ConsoleApplication1
 {
     class Message
     {
+        public void PrintMsg(string message)
+        {
+            Console.WriteLine(message);
+        }
+
         public void PrintMsgs(List<string> messages)
         {
             foreach (string message in messages)
             {
                 Console.WriteLine(message);
+                Console.WriteLine('\n');
             }
-        }
-
-        public void PrintMsg(string message)
-        {
-            Console.WriteLine(message);
         }
     }
 
