@@ -48,6 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\LibGit2Sharp.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\Microsoft.Build.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\Microsoft.Build.Engine.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\Microsoft.Build.Framework.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\Microsoft.Build.Tasks.Core.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\Microsoft.Build.Utilities.Core.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\MoreLinq.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\Newtonsoft.Json.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\SemDiff.Core.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\System.Net.Http.Extensions.dll" />
+    <Analyzer Include="..\packages\SemDiff.1.1\analyzers\dotnet\cs\System.Net.Http.Primitives.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
